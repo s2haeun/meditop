@@ -1,0 +1,39 @@
+<aside class="quick">
+    <div class="content_inner">
+        <div class="quick_button">빠른 상담 신청</div>
+        <form name="fwrite" id="fwrite" action="" onsubmit="" method="post" enctype="multipart/form-data" autocomplete="off">
+            <div class="txt_wrap">
+                <div class="q_logo">
+                    <img src="./img/h_logo.png" alt="메디탑 필라테스 로고">
+                </div>
+                <div class="b_privacy">
+                    <input type="checkbox" id="c1" class="agreeChk labelchk" required>
+                    <label for="c1" class="infoAgree">
+                        <!-- 개인정보취급방침 -->개인정보취급방침
+                        <a href="site1.html" >[더보기]</a>
+                    </label>
+                </div>
+            </div>
+            <div class="form_wrap">
+                
+                <label for="cate1" class="hide_label">지점선택</label>
+                <select  name="wr_content" id="reser_contents"  class="f_cate">
+                    <option value="내용입력안함" hidden="">지점 선택</option>
+                    <option value="대화점">대화점</option>
+                    <option value="흑석점">흑석점</option>
+                    <option value="평택역">고덕(평택)점</option>
+                </select>
+                <label for="name" class="hide_label">이름</label>
+                <input type="text" id="user_named" name="wr_name" value="" placeholder="이름" class="f_name" maxlength="10">
+
+                <label for="hphoneall" class="hide_label">연락처</label>
+                <input type="text" id="user_hp" name="wr_subject" placeholder="연락처 (- 없이 입력)" class="f_tel" maxlength="11">
+
+                <label for="hphoneall" class="hide_label">상담항목</label>
+                <input type="text" id="user_hp" name="wr_subject" placeholder="상담항목" class="f_tel" maxlength="11">
+
+                <input type="submit" value="문의하기" class="f_submit apply subHead" accesskey="s">
+            </div>
+        </form>
+    </div>
+</aside>
